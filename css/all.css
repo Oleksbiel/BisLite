@@ -8238,6 +8238,10 @@ img {
 }
 
 .block-pd-md2 {
+  padding: 30px;
+}
+
+.block-pd-md3 {
   padding-top: 30px;
 }
 
@@ -8276,6 +8280,9 @@ textarea {
   margin-top: 30px;
 }
 
-.secondary-bg {
-  background: #e8ebf1;
+#googleMap {
+  margin-top: 20px;
+  max-width: 370px;
+  width: 100%;
+  height: 200px;
 }
