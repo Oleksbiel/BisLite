@@ -1,0 +1,137 @@
+/*!
+ * Bootstrap v3.3.6 (http://getbootstrap.com)
+ * Copyright 2011-2015 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/blob/master/LICENSE)
+ */
+
+// Core variables and mixins
+// @import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/variables";
+@import "variables";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins";
+
+
+// Reset and dependencies
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/normalize";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/print";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/glyphicons";
+
+// Core CSS
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/scaffolding";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/type";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/code";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/grid";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/tables";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/forms";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/buttons";
+@import "components/buttons";
+
+// Components
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/component-animations";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/dropdowns";
+@import "components/dropdowns";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/button-groups";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/input-groups";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/navs";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/navbar";
+@import "components/navbar";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/breadcrumbs";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/pagination";
+@import "components/pagination";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/pager";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/labels";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/badges";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/jumbotron";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/thumbnails";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/alerts";
+@import "components/alerts";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/progress-bars";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/media";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/list-group";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/panels";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/responsive-embed";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/wells";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/close";
+
+// Components w/ JavaScript
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/modals";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/tooltip";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/popovers";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/carousel";
+@import "components/carousel";
+
+// Utility classes
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/utilities";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/responsive-utilities";
+
+//// Mine
+@import "components/heading";
+@import "components/features";
+@import "components/image-card";
+@import "icons/style";
+@import "Components/lists";
+@import "Components/footer";
+@import "Components/sprite";
+@import "Components/address";
+
+
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.block{
+	&-primary{
+		background: $brand-primary-bg;
+	}
+	&-secondary{
+		background: $brand-secondary;
+	}
+	&-pd-sm{
+		padding-top: 20px;
+		padding-bottom: 30px;
+	}
+	&-pd-md{
+		padding: 50px 0;
+	}
+	&-pd-md2{
+		padding-top: 30px;
+	}
+	&-header {
+		box-shadow: 0 2px 5px rgba(0, 0, 0, 0.07);
+	}
+	&-br-bm {
+		border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+	}
+}
+
+.section{
+	&-pd-sm{
+		padding-top: 20px;
+		padding-bottom: 30px;
+	}
+	&-pd-md-top{
+		padding-top: 40px ;
+	}
+	&-border{
+		border-top: 1px solid $page-header-border-color;
+		border-bottom: 1px solid $page-header-border-color;
+	}
+}
+.page-header{
+	padding-bottom: 15px;
+}
+textarea{
+	min-height: 160px;
+	resize: none;
+}
+.form-group{
+	&-mg-top-md{
+		margin-top: 30px;
+	}
+}
+.secondary{
+	&-bg{
+		background: $brand-secondary;
+	}
+}

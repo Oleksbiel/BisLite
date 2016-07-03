@@ -1,0 +1,16 @@
+.pagination{
+	margin: 30px 0;
+	& > li:first-child > a, & > li:first-child > span , & > li:last-child > a , & > li:last-child > span{
+		border-radius: 0;
+	}
+	.arrow-next {
+		 & > a {
+			background: $brand-secondary !important;
+			color: $brand-primary !important;
+		}
+		&-mg{
+			margin-right: 20px;
+		}
+	}
+
+}

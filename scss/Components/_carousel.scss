@@ -1,0 +1,87 @@
+.carousel-main{
+	.slide{
+		min-height: 440px;
+		background-color: #e05936;	
+		position: relative;
+		&-primary{
+			background: $brand-primary
+		}
+		&-info{
+			background: $brand-info;
+		}
+		&-success{
+			background: $brand-success
+		}
+		&-warning{
+			background: $brand-warning;
+		}
+		&-danger{
+			background: $brand-danger;
+		}
+		&-title{
+			font-weight: 700;
+			font-family: 'Lato', sans-serif;
+			color: #fff;
+			display: table-cell;
+			vertical-align: middle;
+			height: 440px;
+			padding-left: 60px;
+		}
+		&-img-center{
+			position: absolute;
+			bottom: 15px;
+			left: 40%;
+		}
+		&-img-right{
+			position: absolute;
+			right: 0;
+			top: 0;
+		}
+	}
+	.carousel-indicators{
+		margin-bottom: -45px;
+		li {
+			width: 12px;
+			height: 12px;
+			border: none;
+			background: rgba(113,163,167, 0.8);
+			margin: 0;
+			margin-left: 5px;
+		}
+		.active {
+			background: #fff;
+		}
+	}
+}
+
+.carousel-second{
+	padding-top: 20px;
+	padding-bottom: 40px;
+	border-top: 1px solid #dfe1e5;
+	border-bottom: 1px solid #dfe1e5;
+	.carousel-control{
+		width: 0;
+		opacity: 1;
+		bottom: inherit;
+		&.left , &.right {
+			background-image: none;
+			top: -30px;
+			width: 20px;
+			height: 20px;
+			border-radius: 50%;
+			background: $brand-primary-bg;
+		}
+		&.left{	
+			left: 94%;		
+		}
+		&.right {
+			right: 1%;
+		}
+	}
+	&-icon {
+		font-size: 10px;
+		top: -6px;
+		color: $text-color;
+	}
+
+}

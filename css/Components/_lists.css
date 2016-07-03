@@ -1,0 +1,9 @@
+.clients-list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.clients-list-item {
+  display: inline-block;
+}

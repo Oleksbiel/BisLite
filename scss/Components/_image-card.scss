@@ -1,0 +1,42 @@
+.image-card{
+	position: relative;
+	&-mg-bot{
+		margin-bottom: 40px;
+	}
+	&:hover .image-card-layer  {
+		transition: all .3s ease-out;
+		top: 50%;
+	}
+	&:hover .image-card-icon {
+		transition: all .3s ease-out;
+		bottom: 30%;
+	}
+	&-img{
+		width: 100%;
+	}
+	&-layer{
+		position: absolute;
+		bottom: 0;
+		top: 100%;
+		background: $brand-primary;
+		left: 0;
+		right: 0;
+		transition: all .3s ease-out;
+	}
+	&-icon {
+		font-size: 30px;
+		color: #fff;
+		position: absolute;
+		bottom: -30px;
+		transition: all .3s ease-out;
+			&:hover {
+				color: darken(#fff,20%)
+			}
+		&-left{
+			left: 30%;
+		}
+		&-right {
+			right: 32%;
+		}
+	}
+}

@@ -1,0 +1,8 @@
+.nav {
+  padding-top: 8px;
+}
+
+.nav > li {
+  text-transform: uppercase;
+  color: red;
+}

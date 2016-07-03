@@ -1,0 +1,22 @@
+.features{
+	&-text{
+		margin-bottom: 15px;
+		&-line-height-md{
+			line-height: 24px;
+		}
+	}
+	&-icon{
+		font-size: 8px;
+		top: -1px;
+		color: #000;
+		padding-right: 5px;
+		font-weight: bold;
+	}
+	&-link{
+
+	}
+	&-author{
+		font-weight: 700;
+		font-style: italic;
+	}
+}

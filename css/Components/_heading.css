@@ -1,0 +1,19 @@
+.heading-title {
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.heading-icon {
+  padding-right: 34px;
+  vertical-align: middle;
+}
+
+.heading-circle-icon-wrapper {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  border-radius: 50%;
+}

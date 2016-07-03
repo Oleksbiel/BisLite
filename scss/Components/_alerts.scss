@@ -1,0 +1,16 @@
+.alert{
+	margin-bottom: 0;
+	&-icon{
+		font-size: 26px;
+		padding-right: 15px;
+		color: #fff;
+		display: inline-block;
+		vertical-align: bottom;
+	}
+	&-pd-sm{
+		padding: 20px;
+	}
+	&-mg-bot-md{
+		margin-bottom: 30px;
+	}
+}

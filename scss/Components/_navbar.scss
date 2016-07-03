@@ -1,0 +1,14 @@
+.nav {
+	padding-top: 8px;
+	& > li {
+		text-transform: uppercase;
+		font-weight: 700;
+		& > a:hover , & > a:focus {
+			box-shadow: inset 0 5px 0 #2aacc8;
+		}
+	}
+	&-icon{
+		font-size: 8px;
+		top: 0;
+	}
+}

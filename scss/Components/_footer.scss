@@ -1,0 +1,22 @@
+.footer {
+	&-text{
+		margin-bottom: 0;
+	}
+	&-list{
+		padding: 0;
+		margin: 0;
+		list-style-type: none;
+	}
+	&-item{
+		margin-bottom: 5px;
+	}
+	&-link{
+		color: $text-color;
+	}
+	&-top{
+		padding-bottom: 30px;
+	}
+	&-bottom{
+
+	}
+}

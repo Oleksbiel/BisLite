@@ -1,0 +1,11 @@
+.alert {
+  margin-bottom: 0;
+}
+
+.alert-icon {
+  font-size: 26px;
+  padding-right: 15px;
+  color: #fff;
+  display: inline-block;
+  vertical-align: bottom;
+}

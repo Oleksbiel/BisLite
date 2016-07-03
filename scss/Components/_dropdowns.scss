@@ -1,0 +1,17 @@
+.dropdown-menu {
+	border: none;
+	box-shadow: 0 5px 0 #2aacc8;
+	border-radius: 0;
+	& > li {
+		text-transform: none;
+		& > a {
+			padding: 8px 12px;
+			margin: 0 8px;
+			border-bottom: 1px solid #e7e7e7;
+			
+		}
+		&:last-child a {
+			border: none;
+		}
+	}
+}
