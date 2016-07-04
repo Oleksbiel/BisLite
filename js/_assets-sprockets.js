@@ -1,5 +1,8 @@
 //@prepros-append ../bower_components/bootstrap-sass/assets/javascripts/bootstrap.js
 
+var myCenter=new google.maps.LatLng(49.812013, -97.232792);
+var marker;
+
 function initialize() {
         var mapProp = {
             center: new google.maps.LatLng(49.812013, -97.232792),
